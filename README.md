@@ -1,69 +1,92 @@
-👨‍💻 Rudraksh Gupta
-🎓 Master’s Student in Cybersecurity and Threat Intelligence
-📍 Guelph, Ontario, Canada
-📧 rudraksh@uoguelph.ca
-🌐 Portfolio | LinkedIn 
+# 👨‍💻 Rudraksh Gupta
 
-🧠 About Me
+🎓 **Master’s Student in Cybersecurity and Threat Intelligence**  
+📍 Guelph, Ontario, Canada  
+📧 rudraksh@uoguelph.ca  
+🌐 [Portfolio](https://mohakrudrakshh.github.io/portfolio/) | [LinkedIn](https://www.linkedin.com/in/rudrakshguptaa/) | [GitHub](https://github.com/mohakrudrakshh)
+
+---
+
+## 🧠 About Me
+
 I’m Rudraksh Gupta, a cybersecurity enthusiast passionate about solving real-world security problems through threat simulation, machine learning, and agentic AI. My interests lie in proactive defense, SIEM optimization, and explainable AI for malware detection. I specialize in combining hands-on technical tools with strategic thinking to deliver high-impact security solutions.
 
 Currently pursuing my Master's in Cybersecurity and Threat Intelligence at the University of Guelph, I am actively building practical, end-to-end solutions that blend threat intelligence, data science, and cloud-native security.
 
-🔐 Featured Projects
-CyberSage: Agentic RAG for Threat Intelligence
-LLM | Retrieval-Augmented Generation | CVE Analysis | PDF Threat Reports
+---
+
+## 🔐 Featured Projects
+
+### 🔹 [CyberSage: Agentic RAG for Threat Intelligence](https://github.com/mohakrudrakshh/Cybersage-RAG-Agent)
+**LLM | Retrieval-Augmented Generation | CVE Analysis | PDF Threat Reports**
 
 A cutting-edge RAG-based cybersecurity assistant using Meta’s LLaMA-3 and agent workflows.
-Highlights:
 
-Integrated PDF threat intel ingestion and local CVE database querying.
+**Key Features:**
+- Integrated PDF threat intel ingestion and local CVE database querying
+- Vector-based retrieval using FAISS and Sentence Transformers
+- Streamlit UI with task-specific agents (log analysis, CVE summarization)
+- Extended the `CyberScienceLab` base repo with modular enhancements
 
-Built vector-based retrieval using FAISS and Sentence Transformers.
+> 🔧 **Tech Stack**: LLaMA-3, FAISS, PyPDF, LangChain, Streamlit, HuggingFace, JSONL
 
-Extended the CyberScienceLab RAG_LLM_CVE repo with Streamlit UI and explainable agents.
+---
 
-Tasks include CVE summarization, log file analysis, and report extraction using agentic workflows.
+### 🔹 [Hybrid Malware Classification](https://github.com/neelsoni26/hybrid-malware-classification)
+**Static + Dynamic Features | XGBoost | SHAP Explainability | CIC-MalMem + EMBER v2**
 
-🔧 Tech Stack: LLaMA-3, FAISS, PyPDF, LangChain, Streamlit, JSONL, OpenAI-compatible API
+A research-grade malware detection pipeline that integrates both static (EMBER v2) and dynamic (CIC-MalMem2022) feature sets.
 
-Hybrid Malware Classification
-Static + Dynamic Features | XGBoost | SHAP Explainability | CIC-MalMem + EMBER v2
+**Key Features:**
+- Preprocessed and merged datasets totaling 850k+ rows and 2,400+ features
+- Applied PCA and SMOTE for dimensionality reduction and class balancing
+- Evaluated MLP, XGBoost, LightGBM with ROC, confusion matrices
+- Visualized SHAP Summary, Dependence, and Force plots for model explainability
+- Achieved **96% accuracy** using GridSearchCV-tuned XGBoost
 
-A research-grade malware detection pipeline integrating static (EMBER) and dynamic (CIC-MalMem) features.
-Highlights:
+> 📊 **Tools**: Scikit-learn, SHAP, Pandas, Seaborn, GridSearchCV
 
-Performed large-scale data preprocessing on 850k+ samples across 2,400+ features.
+---
 
-Applied PCA for dimensionality reduction and SMOTE for class balancing.
+### 🔹 Threat Simulation & SIEM Detection Pipeline
+**Python | ELK Stack | Sysmon | Suricata | Shodan API**
 
-Evaluated MLP, XGBoost, LightGBM models with confusion matrices and ROC curves.
+A complete simulation + detection pipeline to test SIEM workflows.
 
-Interpreted results using SHAP (summary plots, dependence plots, force plots).
+**Key Features:**
+- Multi-threaded SSH brute-force simulator using Shodan + Paramiko
+- Event log generation via Sysmon, Suricata; ingested using Filebeat
+- Real-time dashboards in Kibana
+- Tuned detection rules achieving over **95% detection efficacy**
 
-Achieved 96% accuracy with tuned XGBoost.
+---
 
-📊 Tools: Scikit-learn, SHAP, Pandas, Matplotlib, Seaborn, GridSearchCV
+## 🧰 Skills Snapshot
 
-Threat Simulation & SIEM Detection Pipeline
-Python | ELK Stack | Sysmon | Suricata | Shodan API
+**Languages:**  
+Python, Bash, PowerShell, SQL, Java, JavaScript
 
-Simulates cyberattacks to test detection pipelines and SIEM tuning.
-Highlights:
+**Cybersecurity Tools:**  
+Snort, OSQuery, Wireshark, Suricata, Metasploit, Burp Suite
 
-Developed a multi-threaded SSH brute-force simulation tool.
+**ML & Explainability:**  
+XGBoost, LightGBM, SHAP, FGSM, PGD, Adversarial Training
 
-Generated logs using Sysmon and Suricata, collected via Filebeat.
+**Cloud & Infrastructure:**  
+AWS, Azure, GCP, Docker, Kubernetes, Streamlit
 
-Designed Kibana dashboards and tuned alerting rules for 95%+ detection efficacy.
+**SIEM & Log Analysis:**  
+ELK Stack, Splunk, Wazuh, Graylog, Zeek
 
-🧰 Skills Snapshot
-Languages: Python, Bash, PowerShell, SQL, Java, JavaScript
-Cybersecurity: Snort, OSQuery, Wireshark, Suricata, Metasploit, Burp Suite
-ML & Explainability: XGBoost, LightGBM, SHAP, FGSM, PGD, Adversarial Training
-Platforms: AWS, Azure, GCP, Docker, Kubernetes, Streamlit
-SIEM & Log Analysis: ELK Stack, Splunk, Wazuh, Graylog, Zeek
-Frameworks & Standards: MITRE ATT&CK, OWASP Top 10, NIST, CIS Controls
+**Frameworks & Methodologies:**  
+MITRE ATT&CK, OWASP Top 10, NIST, CIS Controls
 
-📫 Let’s Connect
-If you're working on something exciting in cybersecurity, agentic AI, or malware analysis—let’s collaborate!
-💬 LinkedIn • 🌐 Portfolio • 📧 rudraksh@uoguelph.ca
+---
+
+## 📫 Let’s Connect
+
+If you're working on something exciting in cybersecurity, agentic AI, or malware analysis — let’s collaborate!
+
+💬 [LinkedIn](https://www.linkedin.com/in/rudrakshguptaa/)  
+🌐 [Portfolio](https://mohakrudrakshh.github.io/portfolio/)  
+📧 rudraksh@uoguelph.ca
