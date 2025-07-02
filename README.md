@@ -12,7 +12,7 @@
 I’m Rudraksh Gupta, a cybersecurity enthusiast passionate about solving real-world security problems through threat simulation, machine learning, and agentic AI. My interests lie in proactive defense, SIEM optimization, and explainable AI for malware detection. I specialize in combining hands-on technical tools with strategic thinking to deliver high-impact security solutions.
 
 Currently pursuing my Master's in Cybersecurity and Threat Intelligence at the University of Guelph, I am actively building practical, end-to-end solutions that blend threat intelligence, data science, and cloud-native security.
-
+I also represent the **OWASP Student Chapter at the University of Guelph**, where I help drive awareness and education around application security through events, workshops, and student engagement.
 ---
 
 ## 🔐 Featured Projects
@@ -30,7 +30,6 @@ A cutting-edge RAG-based cybersecurity assistant using Meta’s LLaMA-3 and agen
 
 > 🔧 **Tech Stack**: LLaMA-3, FAISS, PyPDF, LangChain, Streamlit, HuggingFace, JSONL
 
----
 
 ### 🔹 [Hybrid Malware Classification](https://github.com/neelsoni26/hybrid-malware-classification)
 **Static + Dynamic Features | XGBoost | SHAP Explainability | CIC-MalMem + EMBER v2**
@@ -46,7 +45,6 @@ A research-grade malware detection pipeline that integrates both static (EMBER v
 
 > 📊 **Tools**: Scikit-learn, SHAP, Pandas, Seaborn, GridSearchCV
 
----
 
 ### 🔹 Threat Simulation & SIEM Detection Pipeline
 **Python | ELK Stack | Sysmon | Suricata | Shodan API**
