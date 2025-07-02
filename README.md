@@ -1,74 +1,69 @@
-# 👨‍💻 Rudraksh Gupta
+👨‍💻 Rudraksh Gupta
+🎓 Master’s Student in Cybersecurity and Threat Intelligence
+📍 Guelph, Ontario, Canada
+📧 rudraksh@uoguelph.ca
+🌐 Portfolio | LinkedIn 
 
-🔒 Cybersecurity & Threat Intelligence Enthusiast  
-📍 Guelph, Ontario, Canada  
-📧 rudraksh@uoguelph.ca  
-🌐 [Portfolio](https://mohakrudrakshh.github.io/portfolio/) | [LinkedIn](https://www.linkedin.com/in/rudrakshguptaa/)
+🧠 About Me
+I’m Rudraksh Gupta, a cybersecurity enthusiast passionate about solving real-world security problems through threat simulation, machine learning, and agentic AI. My interests lie in proactive defense, SIEM optimization, and explainable AI for malware detection. I specialize in combining hands-on technical tools with strategic thinking to deliver high-impact security solutions.
 
----
+Currently pursuing my Master's in Cybersecurity and Threat Intelligence at the University of Guelph, I am actively building practical, end-to-end solutions that blend threat intelligence, data science, and cloud-native security.
 
-## 🎯 Objective
+🔐 Featured Projects
+CyberSage: Agentic RAG for Threat Intelligence
+LLM | Retrieval-Augmented Generation | CVE Analysis | PDF Threat Reports
 
-I’m a Master’s student in Cybersecurity and Threat Intelligence at the University of Guelph, passionate about real-world threat detection, SIEM optimization, and adversarial defense. I'm currently seeking internship opportunities to contribute to cybersecurity teams and deepen my hands-on skills in proactive defense strategies.
+A cutting-edge RAG-based cybersecurity assistant using Meta’s LLaMA-3 and agent workflows.
+Highlights:
 
----
+Integrated PDF threat intel ingestion and local CVE database querying.
 
-## 🎓 Education
+Built vector-based retrieval using FAISS and Sentence Transformers.
 
-**University of Guelph**  
-*Masters in Cybersecurity and Threat Intelligence*  
-📅 Jan 2025 – Jan 2026 | Guelph, Ontario  
+Extended the CyberScienceLab RAG_LLM_CVE repo with Streamlit UI and explainable agents.
 
-**Guru Nanak Dev University**  
-*BSc (Hons) Computer Science*  
-📅 May 2021 – July 2024 | Amritsar, Punjab  
+Tasks include CVE summarization, log file analysis, and report extraction using agentic workflows.
 
----
+🔧 Tech Stack: LLaMA-3, FAISS, PyPDF, LangChain, Streamlit, JSONL, OpenAI-compatible API
 
-## 🛡️ Experience
+Hybrid Malware Classification
+Static + Dynamic Features | XGBoost | SHAP Explainability | CIC-MalMem + EMBER v2
 
-**Cybersecurity Analyst Intern** — *EVE Healthcare*  
-📍 Noida, India | Hybrid | 📅 Sept 2024 – Dec 2024  
+A research-grade malware detection pipeline integrating static (EMBER) and dynamic (CIC-MalMem) features.
+Highlights:
 
-- Triaged and escalated 100+ security alerts using SOC playbooks and workflows.
-- Reduced false positives by 30% by tuning detection rules in the ELK Stack.
-- Investigated 50+ incidents (phishing, brute-force, unauthorized access).
-- Developed 10+ SOPs and conducted weekly sensor health checks.
-- Collaborated cross-functionally to resolve 20+ cloud logging issues (AWS, GCP).
+Performed large-scale data preprocessing on 850k+ samples across 2,400+ features.
 
----
+Applied PCA for dimensionality reduction and SMOTE for class balancing.
 
-## 🔬 Projects
+Evaluated MLP, XGBoost, LightGBM models with confusion matrices and ROC curves.
 
-### 🔹 End-to-End Threat Simulation & SIEM Pipeline
-*Python, Shodan API, Paramiko, ELK Stack, Filebeat, Sysmon, Suricata*
+Interpreted results using SHAP (summary plots, dependence plots, force plots).
 
-- Built a multi-threaded SSH brute-force tool with Shodan scanning.
-- Deployed ELK Stack and configured parsing for high-fidelity log ingestion.
-- Created Kibana dashboards and tuned SIEM alerts to detect attack behavior with 95%+ accuracy.
-- Simulated attacks like Mimikatz and brute force to validate detections.
+Achieved 96% accuracy with tuned XGBoost.
 
-### 🔹 Adversarial Machine Learning for Cyber Defense — *Infosys*
-*PyTorch, FGSM, PGD, CIFAR-10, MNIST*
+📊 Tools: Scikit-learn, SHAP, Pandas, Matplotlib, Seaborn, GridSearchCV
 
-- Evaluated model vulnerability to adversarial attacks (FGSM, PGD).
-- Built and tested defensive techniques like adversarial training.
-- Boosted model robustness by 40% while balancing performance.
+Threat Simulation & SIEM Detection Pipeline
+Python | ELK Stack | Sysmon | Suricata | Shodan API
 
----
+Simulates cyberattacks to test detection pipelines and SIEM tuning.
+Highlights:
 
-## 🧰 Technical Skills
+Developed a multi-threaded SSH brute-force simulation tool.
 
-**Languages**: Python, Bash, PowerShell, C/C++, SQL, Java, JavaScript  
-**Security Tools**: Nmap, Wireshark, Burp Suite, Hydra, Snort, Sysmon, OSQuery, Suricata, Metasploit  
-**Cloud & Infra**: AWS, Azure, GCP, Docker, Kubernetes, Terraform  
-**SIEM & Monitoring**: ELK Stack, Splunk, Wazuh, Zeek, Graylog, Filebeat, Kibana  
-**Methodologies**: OWASP Top 10, MITRE ATT&CK, NIST, CIS Controls, Agile, DevSecOps  
-**Systems**: Kali Linux, Ubuntu, Windows Server, CentOS, Parrot OS  
+Generated logs using Sysmon and Suricata, collected via Filebeat.
 
----
+Designed Kibana dashboards and tuned alerting rules for 95%+ detection efficacy.
 
-## 📫 Connect with Me
+🧰 Skills Snapshot
+Languages: Python, Bash, PowerShell, SQL, Java, JavaScript
+Cybersecurity: Snort, OSQuery, Wireshark, Suricata, Metasploit, Burp Suite
+ML & Explainability: XGBoost, LightGBM, SHAP, FGSM, PGD, Adversarial Training
+Platforms: AWS, Azure, GCP, Docker, Kubernetes, Streamlit
+SIEM & Log Analysis: ELK Stack, Splunk, Wazuh, Graylog, Zeek
+Frameworks & Standards: MITRE ATT&CK, OWASP Top 10, NIST, CIS Controls
 
-Feel free to check out my [portfolio](https://mohakrudrakshh.github.io/portfolio/) or reach out via [LinkedIn](https://www.linkedin.com/in/rudrakshguptaa/). I'm always open to meaningful conversations in the cybersecurity space!
-
+📫 Let’s Connect
+If you're working on something exciting in cybersecurity, agentic AI, or malware analysis—let’s collaborate!
+💬 LinkedIn • 🌐 Portfolio • 📧 rudraksh@uoguelph.ca
